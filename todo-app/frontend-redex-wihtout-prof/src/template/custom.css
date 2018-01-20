@@ -11,6 +11,11 @@
     width: 105px;
 }
 
-.todoForm{
-    padding-bottom: 60px
+.todoForm, .customerForm{
+    padding-bottom: 60px;
+}
+
+.wrapper-grid{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

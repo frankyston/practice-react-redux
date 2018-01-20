@@ -24,7 +24,6 @@ export const add = (description) => {
     return dispatch => {
         axios.post(URL, { description })
         .then(resp => dispatch(clear()))
-        .then(resp => dispatch(search()))
     }
 }
 
